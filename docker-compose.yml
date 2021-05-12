@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  php-fpm:
+    container_name: calculator
+    build:
+      context: .
+    ports:
+      - "80:8000"
+    volumes:
+      - ./:/var/www

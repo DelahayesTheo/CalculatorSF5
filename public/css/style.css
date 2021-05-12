@@ -1,0 +1,18 @@
+.calculator {
+  max-width: 680px;
+}
+
+.calculator-key {
+  padding: 10px 50px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.calculator-key:hover {
+  filter: brightness(85%);
+}
+
+#calculator-screen {
+  padding: 10px;
+  text-align: right;
+}
